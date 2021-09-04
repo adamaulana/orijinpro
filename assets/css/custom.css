@@ -283,13 +283,22 @@
         width: 650px;
         display: block;
         margin-top:5%;
-    }    
-    #toolkit .swiper-container {
+    }   
+    
+    #toolkit .swiper-wrapper .swiper-slide{        
+        min-height: 321px;  
+        border-radius:10px;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding:4% 3%;
+    }
+
+    #toolkit .swiper {
         width: 120%;
         margin-left:4%; 
         min-height: 435px;
         margin-top: 83px;
-        /* background-color: cornflowerblue; */
+        
       }
 
     #toolkit .swiper-wrapper .swiper-slide{        
@@ -315,7 +324,7 @@
 
     #toolkit .swiper-pagination{
         margin-left:-11%;  
-        margin-bottom: 20px;      
+        margin-bottom: 20px;
     }
 
 #feeds{
@@ -569,7 +578,7 @@
         text-align: center;
         padding: 10% 8%;
     }
-    #toolkit .swiper-container {
+    #toolkit .swiper {
         width: 96%;        
         min-height: 435px;
         margin-top:10px;        
